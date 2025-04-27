@@ -1,0 +1,68 @@
+/* CSS and HTML created by Wilber Amaya-Maurisio */
+header {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(102, 50, 146);
+  font-size: 50px;
+  color: #ffe9cf;
+  height: 100%;
+  margin-top: 5px;
+  margin-bottom: 100px;
+  padding: 10px;
+}
+
+body {
+  background-image: url(../images/background.png);
+  font-weight: normal;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  width: 80%;
+  margin: 20px auto;
+  aspect-ratio: 1/1;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  height: 12.5%;
+}
+
+.cell {
+  width: 12.5%;
+  height: 100%;
+  display: flex;
+}
+
+.light {
+  background-color: #ffe9cf;
+}
+
+.dark {
+  background-color: rgb(95, 57, 126);
+}
+
+.cell img {
+  width: 70%;
+  height: 70%;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(102, 50, 146);
+  color: #ffe9cf;
+  height: 100px;
+  margin-bottom: 5px;
+  margin-top: 100px;
+}
+
+footer img {
+  padding: 10px;
+}
