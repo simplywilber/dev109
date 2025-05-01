@@ -1,0 +1,70 @@
+* {
+  font-family: Arial, Verdana, sans-serif;
+  text-align: center;
+}
+body {
+  width: 90%;
+  margin: 0 auto;
+  background-image: url(./images/flowers-bg.jpg);
+  background-size: 60%;
+}
+#header h1 {
+  color: rgb(254, 255, 186);
+  font-size: 45px;
+  font-family: "ChomskyRegular", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+#nav {
+  background-color: aquamarine;
+  color: navy;
+}
+#content {
+  overflow: auto;
+}
+#feature {
+  background-color: palevioletred;
+  color: bisque;
+}
+.column1 {
+  background-color: salmon;
+  color: rgb(151, 255, 234);
+}
+.column2 {
+  background-color: forestgreen;
+  color: rgb(255, 214, 153);
+}
+.column3 {
+  background-color: royalblue;
+  color: rgb(155, 244, 164);
+  margin-right: 0%;
+}
+#footer {
+  background-color: peachpuff;
+  color: rebeccapurple;
+}
+#nav,
+#feature,
+#footer {
+  margin: 1%;
+}
+.column1,
+.column2,
+.column3 {
+  width: 31.3%;
+  float: left;
+  margin: 1%;
+}
+li {
+  display: inline;
+  padding: 0.5em;
+}
+#nav,
+#footer {
+  padding: 0.5em 0;
+}
+#feature,
+.article {
+  height: 10em;
+  margin-bottom: 1em;
+}
