@@ -1,1 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" type="text/css" />
+    <title>A03 - Rhombus</title>
+  </head>
+  <body>
+    <h1>Rhombus Generator</h1>
+    <h2>Wilber Amaya-Maurisio</h2>
+    <label>What is the size of Rhombus?</label><br />
+    <input type="text" id="rHeight" value="" size="5" />
+    <br />
+    <label>Choose color for Even position</label><br />
+    <select id="colorEven">
+      <option value="#E52B50">Amaranth</option>
+      <option value="#FF0000">Red</option>
+      <option value="#BF5700">Pantone</option>
+      <option value="#228B22">Forest Green</option>
+      <option value="#4F42B5">Ocean Blue</option>
+    </select>
+    <br />
 
+    <label>Choose color for Odd position</label><br />
+    <select id="colorOdd">
+      <option value="#E6E6FA">Lavender</option>
+      <option value="#00FFFF">Cyan</option>
+      <option value="#ffbd88">Macaroni and Cheese</option>
+      <option value="#33FF00">Green</option>
+      <option value="#800000">Maroon</option>
+    </select>
+
+    <br />
+
+    <label>Choose symbol for Rhombus</label>
+    <select id="symbol">
+      <option value="*">*</option>
+      <option value="&">&</option>
+      <option value="#">#</option>
+      <option value="$">$</option>
+      <option value="@">@</option>
+    </select>
+    <br />
+    <br />
+
+    <button type="button" onclick="generateRhombus()">Generate Rhombus</button>
+
+    <div id="rhombus-container"></div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
