@@ -1,1 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./css/art4.css" />
+    <title>Artifact 04</title>
+  </head>
+  <body>
+    <div class="container">
+      <form
+        id="contactForm"
+        action="thankyou.html"
+        onsubmit="return validateForm();"
+      >
+        <div id="errorMessages"></div>
 
+        <label for="firstname">First Name:</label>
+        <input type="text" id="firstname" name="firstname" />
+        <div id="firstnameError" class="error"></div>
+
+        <label for="lastname">Last Name:</label>
+        <input type="text" id="lastname" name="lastname" />
+        <div id="lastnameError" class="error"></div>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" />
+        <div id="emailError" class="error"></div>
+
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" name="phone" />
+        <div id="phoneError" class="error"></div>
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" />
+        <div id="usernameError" class="error"></div>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" />
+        <div id="passwordError" class="error"></div>
+
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" />
+        <div id="addressError" class="error"></div>
+
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" />
+        <div id="cityError" class="error"></div>
+
+        <label for="state">State:</label>
+        <select id="state" name="state">
+          <option value="">Select State</option>
+          <option value="AL">Alabama</option>
+          <option value="AK">Alaska</option>
+          <option value="AZ">Arizona</option>
+          <option value="AR">Arkansas</option>
+          <option value="CA">California</option>
+          <option value="CO">Colorado</option>
+          <option value="CT">Connecticut</option>
+          <option value="DE">Delaware</option>
+          <option value="DC">District Of Columbia</option>
+          <option value="FL">Florida</option>
+          <option value="GA">Georgia</option>
+          <option value="HI">Hawaii</option>
+          <option value="ID">Idaho</option>
+          <option value="IL">Illinois</option>
+          <option value="IN">Indiana</option>
+          <option value="IA">Iowa</option>
+          <option value="KS">Kansas</option>
+          <option value="KY">Kentucky</option>
+          <option value="LA">Louisiana</option>
+          <option value="ME">Maine</option>
+          <option value="MD">Maryland</option>
+          <option value="MA">Massachusetts</option>
+          <option value="MI">Michigan</option>
+          <option value="MN">Minnesota</option>
+          <option value="MS">Mississippi</option>
+          <option value="MO">Missouri</option>
+          <option value="MT">Montana</option>
+          <option value="NE">Nebraska</option>
+          <option value="NV">Nevada</option>
+          <option value="NH">New Hampshire</option>
+          <option value="NJ">New Jersey</option>
+          <option value="NM">New Mexico</option>
+          <option value="NY">New York</option>
+          <option value="NC">North Carolina</option>
+          <option value="ND">North Dakota</option>
+          <option value="OH">Ohio</option>
+          <option value="OK">Oklahoma</option>
+          <option value="OR">Oregon</option>
+          <option value="PA">Pennsylvania</option>
+          <option value="RI">Rhode Island</option>
+          <option value="SC">South Carolina</option>
+          <option value="SD">South Dakota</option>
+          <option value="TN">Tennessee</option>
+          <option value="TX">Texas</option>
+          <option value="UT">Utah</option>
+          <option value="VT">Vermont</option>
+          <option value="VA">Virginia</option>
+          <option value="WA">Washington</option>
+          <option value="WV">West Virginia</option>
+          <option value="WI">Wisconsin</option>
+          <option value="WY">Wyoming</option>
+        </select>
+        <div id="stateError" class="error"></div>
+
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+          <option value="">Select Country</option>
+          <option value="USA">United States</option>
+          <option value="CA">Canada</option>
+          <option value="MX">Mexico</option>
+        </select>
+        <div id="countryError" class="error"></div>
+
+        <label for="zipcode">Zip Code:</label>
+        <input type="text" id="zipcode" name="zipcode" />
+        <div id="zipcodeError" class="error"></div>
+
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments"></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+      <div id="validation-imgs">
+        <a
+          href="http://validator.w3.org/check?uri=https://simplywilber.github.io/dev109/a4/"
+          target="_blank"
+        >
+          <img
+            src="http://www.w3.org/Icons/valid-xhtml10"
+            alt="HTML Validator"
+            height="44"
+            width="100"
+          />
+        </a>
+        <a
+          href="https://jigsaw.w3.org/css-validator/validator?uri=https://simplywilber.github.io/dev109/a4/"
+          target="_blank"
+        >
+          <img
+            src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="CSS Validator"
+            height="44"
+            width="100"
+          />
+        </a>
+      </div>
+    </div>
+    <script src="js/validator.js"></script>
+  </body>
+</html>
