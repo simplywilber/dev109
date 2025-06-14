@@ -94,11 +94,9 @@ function prevImage() {
   if (autoAdvance) startCountdown();
 }
 
-// Attach button event listeners
 document.getElementById("nextBtn").addEventListener("click", nextImage);
 document.getElementById("prevBtn").addEventListener("click", prevImage);
 autoBtn.addEventListener("click", toggleAuto);
 
-// Initial setup
 showImage(currentIndex);
 updateTimerDisplay();
