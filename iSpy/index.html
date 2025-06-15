@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>I Spy Game</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div id="header">
+      <h1>I Spy Game</h1>
+      <p>Can you find all the hidden items? Click on them in the image!</p>
+
+      <h2>Items to Find:</h2>
+      <p id="progress">Found 0 of 7 items</p>
+      <ul id="items-list">
+        <li id="item-spoon">Spoon</li>
+        <li id="item-croissant">Croissant</li>
+        <li id="item-fork">Fork</li>
+        <li id="item-latte">Latte</li>
+        <li id="item-water">Water</li>
+        <li id="item-plant">Plant</li>
+        <li id="item-book">Book</li>
+      </ul>
+    </div>
+
+    <div class="image-container">
+      <img
+        src="images/ispy-img.jpg"
+        alt="I Spy"
+        usemap="#spy-map"
+        id="spy-image"
+      />
+      <map name="spy-map">
+        <area
+          id="area-spoon"
+          alt="Spoon"
+          coords="390,730,437,778"
+          shape="rect"
+          href="#"
+        />
+        <area
+          id="area-croissant"
+          alt="Croissant"
+          coords="354,660,420,703"
+          shape="rect"
+          href="#"
+        />
+        <area
+          id="area-fork"
+          alt="Fork"
+          coords="322,656,337,672"
+          shape="rect"
+          href="#"
+        />
+        <area
+          id="area-latte"
+          alt="Latte"
+          coords="467,647,545,744"
+          shape="rect"
+          href="#"
+        />
+        <area
+          id="area-water"
+          alt="Water"
+          coords="616,672,667,744"
+          shape="rect"
+          href="#"
+        />
+        <area
+          id="area-plant"
+          alt="Plant"
+          coords="547,592,600,686"
+          shape="rect"
+          href="#"
+        />
+        <area
+          id="area-book"
+          alt="Book"
+          coords="107,838,448,963"
+          shape="rect"
+          href="#"
+        />
+      </map>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

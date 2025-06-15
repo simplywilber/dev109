@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #d2eaff;
+  margin: 0;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+#items-list {
+  list-style: none;
+  padding: 0;
+  font-size: 18px;
+}
+
+#items-list li {
+  margin: 10px 0;
+}
